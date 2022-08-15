@@ -24,8 +24,8 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": -0.06661934897476485,
-        "pitch": 0.051001922236867614,
+        "yaw": -0.2725885431351962,
+        "pitch": 0.10738017226985441,
         "fov": 1.41569238083293
       },
       "linkHotspots": [
@@ -128,6 +128,12 @@ var APP_DATA = {
           "pitch": 0.18757849853417774,
           "rotation": 0,
           "target": "4-cocina"
+        },
+        {
+          "yaw": -2.2409191369393664,
+          "pitch": 0.2261254991984245,
+          "rotation": 0,
+          "target": "1-salon"
         }
       ],
       "infoHotspots": []
