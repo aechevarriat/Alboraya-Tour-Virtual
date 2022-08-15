@@ -1,51 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-cocina",
-      "name": "COCINA",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "yaw": -0.4150733372567572,
-        "pitch": 0.14972834246167643,
-        "fov": 1.41569238083293
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.3886017153896262,
-          "pitch": 0.1365097219326934,
-          "rotation": 0,
-          "target": "2-galeria"
-        },
-        {
-          "yaw": -1.2587129273016764,
-          "pitch": 0.18757849853417774,
-          "rotation": 0,
-          "target": "4-cocina"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-entrada",
+      "id": "0-entrada",
       "name": "ENTRADA",
       "levels": [
         {
@@ -68,8 +24,8 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": 0.025705561905613905,
-        "pitch": 0.03645781474684817,
+        "yaw": -0.06661934897476485,
+        "pitch": 0.051001922236867614,
         "fov": 1.41569238083293
       },
       "linkHotspots": [
@@ -77,57 +33,13 @@ var APP_DATA = {
           "yaw": -0.09811456592615464,
           "pitch": 0.2721285049476254,
           "rotation": 0,
-          "target": "3-salon"
+          "target": "1-salon"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-galeria",
-      "name": "GALERIA",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "yaw": 0.03617595691951081,
-        "pitch": 0.050777437878313236,
-        "fov": 1.41569238083293
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.7138985028815625,
-          "pitch": 0.43443662444263076,
-          "rotation": 5.497787143782138,
-          "target": "0-cocina"
-        },
-        {
-          "yaw": -1.428826506410811,
-          "pitch": 0.3008816990015344,
-          "rotation": 0,
-          "target": "4-cocina"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-salon",
+      "id": "1-salon",
       "name": "SALON",
       "levels": [
         {
@@ -159,17 +71,105 @@ var APP_DATA = {
           "yaw": 3.0103156337083687,
           "pitch": 0.16873644268876475,
           "rotation": 0,
-          "target": "0-cocina"
+          "target": "2-cocina"
         },
         {
           "yaw": -2.7002492735810577,
           "pitch": 0.14633853923125528,
           "rotation": 0,
-          "target": "1-entrada"
+          "target": "0-entrada"
         },
         {
           "yaw": 2.014845367816873,
           "pitch": 0.18914856988285678,
+          "rotation": 0,
+          "target": "4-cocina"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-cocina",
+      "name": "COCINA",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "yaw": -0.4150733372567572,
+        "pitch": 0.14972834246167643,
+        "fov": 1.41569238083293
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.3886017153896262,
+          "pitch": 0.1365097219326934,
+          "rotation": 0,
+          "target": "3-galeria"
+        },
+        {
+          "yaw": -1.2587129273016764,
+          "pitch": 0.18757849853417774,
+          "rotation": 0,
+          "target": "4-cocina"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-galeria",
+      "name": "GALERIA",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "yaw": 0.03617595691951081,
+        "pitch": 0.050777437878313236,
+        "fov": 1.41569238083293
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.7138985028815625,
+          "pitch": 0.43443662444263076,
+          "rotation": 5.497787143782138,
+          "target": "2-cocina"
+        },
+        {
+          "yaw": -1.428826506410811,
+          "pitch": 0.3008816990015344,
           "rotation": 0,
           "target": "4-cocina"
         }
@@ -209,19 +209,19 @@ var APP_DATA = {
           "yaw": 0.0752732187209979,
           "pitch": 0.14446564712071108,
           "rotation": 0,
-          "target": "2-galeria"
+          "target": "3-galeria"
         },
         {
           "yaw": 1.9254906078540852,
           "pitch": 0.2533629268966262,
           "rotation": 0,
-          "target": "3-salon"
+          "target": "1-salon"
         },
         {
           "yaw": 0.8448372367940937,
           "pitch": 0.1988004342726697,
           "rotation": 0,
-          "target": "0-cocina"
+          "target": "2-cocina"
         }
       ],
       "infoHotspots": []
